@@ -14,7 +14,9 @@ For this assignment I am using SQL to analyse employee data for Pewlett Hackard 
 **image**
 - The retiring_titles table shows how many employees from each department are projected to retire.
     - This information is extremely valuable. With this information Pewlett Hackard will know how many people they should expect to hire and train for each department. Furthermore, more mentors should be selected for departments that are expected to lose a lot of employees.
-**image**
+
+<img width="874" alt="mentorship_eligibility" src="https://user-images.githubusercontent.com/89175578/140633684-95a22ef4-bc3d-4425-a47d-02878304d6a9.png">
+
 - The mentorship_eligibility table shows younger employees that could be mentored by older, retiring employees.
     - This table shows the employee and their title, which simplifies the process of finding mentees for the mentors and vice versa.
 
