@@ -52,5 +52,16 @@ select count(ut.first_name) as "Total Openings"
 into total_openings
 from unique_titles ut; 
 
+-- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+select count(me.first_name) as "spots"
+into mentees
+from mentorship_eligibility me; 
+
+select to2.spots,
+	m.spots
+from total_openings to2 
+	full outer join mentees m 
+		on(to2.spots = m.spots)
+
 
 
