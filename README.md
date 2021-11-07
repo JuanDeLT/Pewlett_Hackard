@@ -36,17 +36,6 @@ For this assignment I am using SQL to analyse employee data for Pewlett Hackard 
 
 2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-<img width="220" alt="summary2" src="https://user-images.githubusercontent.com/89175578/140633741-0ca2415f-8359-4076-8312-22823684a2da.png">
+<img width="364" alt="summary2" src="https://user-images.githubusercontent.com/89175578/140633801-f332ddbd-5c18-4ca1-84dd-bf79fd2becc0.png">
 
-- The query to answer this question is a comparison of all the projected retiring employees and the mentees. I did this by using the table I made previously and then making another table that summed up the number of employees in the mentorship eligibility list. Then I joined these two table using a full outer join to be able to compare them easily. By comparing these numbers we can determine how many spots will be vacant, and how many current employees could take up those spots. It seems that unless a large portion of the retiring employees decide to take on the part time mentorship role the company is ill equipped to train a large influx of new employees.
-
-
-
-
-
-
-
-
-
-
-
+- The query to answer this question is a comparison of all the projected retiring employees and the mentees. I did this by using the table I made previously and then making another table that summed up the number of employees in the mentorship eligibility list. Then I joined these two table using a full outer join to be able to compare them easily. By comparing these numbers we can determine how many spots will be vacant, and how many current employees could take up those spots. It seems that unless a large portion of the retiring employees decide to take on the part time mentorship role the company is ill equipped to train a large influx of new employees. The left half of the table shows how many employees are retiring, the right shows how many are mentorship eligible.
